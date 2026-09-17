@@ -68,19 +68,15 @@ export default function PostProjectPage() {
     <div className="bg-slate-50 min-h-screen py-12">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Standardized Breadcrumb */}
-        <Breadcrumbs items={[{ label: "Post a Project" }]} />
+        <Breadcrumbs items={[{ label: "Scope & Estimator Intake" }]} />
 
         {/* Top Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 text-brand-700 text-xs font-semibold mb-3 border border-brand-200">
-            <ShieldCheck className="w-3.5 h-3.5 text-brand-600" />
-            Zero Bidding Wars • Verified Proposals Only
-          </div>
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-2">
-            Post a Project Requirement
+            Start Your Engineering Project
           </h1>
           <p className="text-xs sm:text-sm text-slate-600">
-            Complete this 7-step intake to receive customized proposals from independently verified providers.
+            Complete this 7-step intake to get a technical roadmap, timeline, and exact fixed-fee quotation from GraphicsIdea.
           </p>
         </div>
 
@@ -266,7 +262,7 @@ export default function PostProjectPage() {
                 <div className="space-y-6 animate-in fade-in duration-200">
                   <h2 className="text-xl font-bold text-slate-900">What is your expected project budget?</h2>
                   <p className="text-xs text-slate-500">
-                    Transparent budgets help matching providers submit realistic architecture and sprint timelines.
+                    Transparent budgets help GraphicsIdea solutions architects design appropriate tech stacks and delivery milestones.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                     {[
@@ -299,10 +295,10 @@ export default function PostProjectPage() {
                   <h2 className="text-xl font-bold text-slate-900">When do you need the project to start?</h2>
                   <div className="space-y-3">
                     {[
-                      { time: "Immediately (Within 1-2 weeks)", desc: "Ready to review proposals and begin sprints." },
+                      { time: "Immediately (Within 1-2 weeks)", desc: "Ready to review GraphicsIdea proposal and begin sprint 1." },
                       { time: "Within 1 month", desc: "Finalizing internal budget or wireframes." },
                       { time: "1 to 3 months", desc: "Planning phase for next quarter." },
-                      { time: "Flexible / Exploring", desc: "Reviewing vendor landscape and gathering estimates." },
+                      { time: "Flexible / Exploring", desc: "Gathering estimates and technical architecture guidance." },
                     ].map((opt) => (
                       <button
                         key={opt.time}
@@ -330,7 +326,7 @@ export default function PostProjectPage() {
                 <div className="space-y-6 animate-in fade-in duration-200">
                   <h2 className="text-xl font-bold text-slate-900">Your Contact & Company Details</h2>
                   <p className="text-xs text-slate-500">
-                    We share your requirements strictly with verified providers matching your parameters. No spam.
+                    Your details are strictly confidential under GraphicsIdea standard NDA policy. Zero spam.
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -432,8 +428,7 @@ export default function PostProjectPage() {
                     <div>
                       <span className="font-bold">What happens next?</span>
                       <p className="mt-0.5">
-                        Your RFQ will be routed to matched verified providers. You will receive 2-4
-                        tailored proposals directly from vetted agency principals within 24-48 hours.
+                        Your intake will be directly reviewed by a GraphicsIdea Principal Architect. You will receive a full technical estimate and interactive project breakdown within 24 hours.
                       </p>
                     </div>
                   </div>
@@ -468,7 +463,7 @@ export default function PostProjectPage() {
                     onClick={handleSubmit}
                     className="inline-flex items-center gap-2 text-xs font-semibold text-white bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 px-7 py-3 rounded-xl shadow-md transition-all"
                   >
-                    <CheckCircle2 className="w-4 h-4" /> Submit Project Requirement
+                    <CheckCircle2 className="w-4 h-4" /> Submit Intake & Get Estimate
                   </button>
                 )}
               </div>
@@ -479,26 +474,25 @@ export default function PostProjectPage() {
               <div className="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 mx-auto flex items-center justify-center">
                 <CheckCircle2 className="w-10 h-10" />
               </div>
-              <h2 className="text-2xl font-bold text-slate-900">Project Requirement Submitted!</h2>
+              <h2 className="text-2xl font-bold text-slate-900">Scope Intake Submitted!</h2>
               <p className="text-xs sm:text-sm text-slate-600 max-w-md mx-auto leading-relaxed">
                 Thank you, <span className="font-semibold text-slate-900">{contactName || "partner"}</span>.
-                We have received your project specifications and are matching you with vetted providers
-                specializing in <span className="font-semibold text-brand-600">{selectedService}</span>.
+                GraphicsIdea senior engineering team is reviewing your project requirements for <span className="font-semibold text-brand-600">{selectedService}</span>.
               </p>
 
               <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200 text-xs max-w-md mx-auto text-left space-y-2">
                 <div className="font-bold text-slate-900 mb-1">Confirmation Details:</div>
-                <div>• Matched Providers: 2-3 verified agencies</div>
-                <div>• Expected Proposal Time: Within 24 hours</div>
-                <div>• Direct Access: Proposals sent to {contactEmail || "your email"}</div>
+                <div>• Assigned Team: GraphicsIdea Senior Solutions Architect</div>
+                <div>• Turnaround: Formal scope proposal within 24 hours</div>
+                <div>• Delivery Email: Sent directly to {contactEmail || "your email"}</div>
               </div>
 
               <div className="flex justify-center gap-3 pt-4">
                 <Link
-                  href="/providers"
+                  href="/case-studies"
                   className="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 active:bg-brand-800 text-white font-semibold text-xs transition-all shadow-sm"
                 >
-                  Browse Providers Meanwhile
+                  Explore Our Work
                 </Link>
                 <Link
                   href="/"

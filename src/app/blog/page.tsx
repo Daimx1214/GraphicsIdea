@@ -8,9 +8,9 @@ import { BLOG_POSTS } from "@/lib/data";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "B2B Hiring Guides & Marketplace Insights | GraphicsIdea Blog",
+  title: "Engineering Insights & Product Strategy | GraphicsIdea Blog",
   description:
-    "Authoritative guides on hiring software development companies, estimating project costs, and choosing between agencies and independent specialists.",
+    "Authoritative guides on modern web development, AI architecture, digital transformation, and scaling custom software products.",
 };
 
 export default function BlogIndexPage() {

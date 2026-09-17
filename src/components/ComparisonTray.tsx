@@ -77,9 +77,9 @@ export default function ComparisonTray() {
               <div className="flex items-center gap-2.5">
                 <Scale className="w-5 h-5 text-brand-600" />
                 <div>
-                  <h3 className="text-lg font-bold text-slate-900">Side-by-Side Provider Comparison</h3>
+                  <h3 className="text-lg font-bold text-slate-900">Side-by-Side Dedicated Squad Comparison</h3>
                   <p className="text-xs text-slate-500">
-                    Compare verified capability, team size, rating metrics, and pricing structures
+                    Compare GraphicsIdea engineering squad capabilities, team sizes, stack competencies, and sprint rates
                   </p>
                 </div>
               </div>
@@ -123,7 +123,7 @@ export default function ComparisonTray() {
                       <td key={prov.id} className="p-3">
                         {prov.verified ? (
                           <span className="inline-flex items-center gap-1 text-xs font-medium text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
-                            <ShieldCheck className="w-3.5 h-3.5" /> Verified Provider
+                            <ShieldCheck className="w-3.5 h-3.5" /> Vetted Agency Squad
                           </span>
                         ) : (
                           <span className="text-xs text-slate-400">Standard</span>
@@ -265,7 +265,7 @@ export default function ComparisonTray() {
 
             {/* Modal Footer */}
             <div className="p-4 border-t border-slate-200 bg-slate-50 flex items-center justify-between text-xs text-slate-500">
-              <span>All provider data is independently audited and verified by GraphicsIdea.</span>
+              <span>All dedicated squads are directly managed, vetted, and guaranteed by GraphicsIdea.</span>
               <button
                 type="button"
                 onClick={() => setIsCompareModalOpen(false)}

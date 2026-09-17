@@ -24,10 +24,6 @@ export default function FaqPage() {
 
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 text-brand-700 text-xs font-semibold mb-3 border border-brand-200">
-            <HelpCircle className="w-3.5 h-3.5 text-brand-600" />
-            Help & Answers
-          </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-3">
             Frequently Asked Questions
           </h1>

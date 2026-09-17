@@ -73,12 +73,8 @@ export default function TechnologyLandingPage({ params }: Props) {
         {/* Hero Header */}
         <header className="bg-white rounded-3xl p-8 sm:p-12 border border-slate-200 shadow-card mb-12">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 text-brand-700 text-xs font-semibold mb-4 border border-brand-200">
-              <Code className="w-3.5 h-3.5 text-brand-600" />
-              Technology Stack Hub & Marketplace
-            </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
-              {tech.name} Specialists & Verified Providers
+              {tech.name} Engineering Practice & Capabilities
             </h1>
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed mb-6">
               {tech.headline}

@@ -149,10 +149,6 @@ export default function ServiceLandingPage({ params }: Props) {
         {/* Hero Section */}
         <header className="bg-white rounded-2xl sm:rounded-3xl p-8 sm:p-12 border border-slate-200/90 shadow-card mb-12">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 text-brand-700 text-xs font-semibold mb-4 border border-brand-200">
-              <ShieldCheck className="w-3.5 h-3.5 text-brand-600" />
-              Verified Capability Guide & Marketplace
-            </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
               {service.name}
             </h1>

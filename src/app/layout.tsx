@@ -15,43 +15,43 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://graphicsidea.com"),
   title: {
-    default: "GraphicsIdea | Verified B2B Multi-Service-Provider Discovery Marketplace",
-    template: "%s | GraphicsIdea",
+    default: "GraphicsIdea | Full-Service Digital Product Agency & Engineering Studio",
+    template: "%s | GraphicsIdea Agency",
   },
   description:
-    "Discover, compare, and hire verified technology agencies, software studios, designers, and digital specialists. Zero bidding wars, audited portfolios, and direct client engagement.",
+    "GraphicsIdea is a full-service software development and UI/UX design studio. We build production-ready Next.js web applications, React Native mobile apps, and custom AI platforms.",
   keywords: [
-    "service marketplace",
-    "agency directory",
-    "hire software agency",
-    "hire web developers",
-    "vetted UI UX designers",
-    "B2B tech services marketplace",
-    "find certified providers",
+    "digital agency",
+    "web development studio",
+    "custom software development",
+    "Next.js web apps",
+    "React Native mobile development",
+    "UI UX design studio",
+    "AI software engineering",
   ],
-  authors: [{ name: "GraphicsIdea Technologies" }],
+  authors: [{ name: "GraphicsIdea Agency" }],
   creator: "GraphicsIdea",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://graphicsidea.com",
-    siteName: "GraphicsIdea",
-    title: "GraphicsIdea | Discover & Hire Verified Technology Agencies",
+    siteName: "GraphicsIdea Agency",
+    title: "GraphicsIdea | Full-Service Digital Product Agency & Engineering Studio",
     description:
-      "The independent B2B directory to compare vetted agencies, software studios, and specialists by real portfolios, verified reviews, and transparent pricing.",
+      "We design and build high-converting web applications, native mobile apps, and enterprise AI software with 100% IP ownership.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&auto=format&fit=crop&q=80",
         width: 1200,
         height: 630,
-        alt: "GraphicsIdea Marketplace Platform",
+        alt: "GraphicsIdea Digital Agency Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GraphicsIdea | Verified B2B Multi-Service Provider Marketplace",
-    description: "Compare vetted agencies, software studios, and specialists by real work and transparent rates.",
+    title: "GraphicsIdea | Full-Service Digital Product Agency",
+    description: "We design and engineer high-converting web apps, mobile apps, and AI software.",
     creator: "@graphicsidea",
   },
   robots: {
@@ -75,13 +75,13 @@ export default function RootLayout({
   const jsonLdWebsite = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "GraphicsIdea",
+    name: "GraphicsIdea Digital Agency & Studio",
     url: "https://graphicsidea.com",
     description:
-      "A premium B2B multi-service-provider discovery marketplace connecting companies with verified agencies, software developers, and product studios.",
+      "GraphicsIdea is an elite digital product agency delivering full-stack web, mobile, UI/UX, and AI engineering.",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://graphicsidea.com/providers?search={search_term_string}",
+      target: "https://graphicsidea.com/services?search={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };

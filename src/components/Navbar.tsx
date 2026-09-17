@@ -146,11 +146,11 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { label: "Find Providers", href: "/providers" },
-    { label: "Categories", href: "/categories" },
-    { label: "Industries", href: "/industries" },
-    { label: "How It Works", href: "/how-it-works" },
-    { label: "For Providers", href: "/for-providers" },
+    { label: "Services", href: "/services" },
+    { label: "Our Work", href: "/case-studies" },
+    { label: "About Us", href: "/about" },
+    { label: "Our Process", href: "/how-it-works" },
+    { label: "FAQ", href: "/faq" },
   ];
 
   return (
@@ -167,16 +167,16 @@ export default function Navbar() {
             {/* Left: Brand Logo & Desktop Nav */}
             <div className="flex items-center gap-3 xl:gap-6 min-w-0">
               <Link href="/" className="flex items-center gap-2.5 group shrink-0">
-                <div className="w-8 h-8 rounded-xl bg-brand-600 flex items-center justify-center text-white shadow-xs group-hover:bg-brand-700 transition-colors shrink-0">
-                  <ShieldCheck className="w-4.5 h-4.5 text-white" />
+                <div className="w-8.5 h-8.5 rounded-xl bg-brand-600 flex items-center justify-center text-white shadow-xs group-hover:bg-brand-700 transition-colors shrink-0">
+                  <Sparkles className="w-5 h-5 text-white" />
                 </div>
                 <div className="flex flex-col shrink-0">
                   <span className="text-base font-bold tracking-tight text-slate-900 flex items-center gap-1.5 leading-none">
                     GraphicsIdea
                     <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
                   </span>
-                  <span className="text-[10px] font-semibold tracking-wider text-slate-400 uppercase mt-0.5">
-                    Verified Marketplace
+                  <span className="text-[10px] font-semibold tracking-wider text-brand-600 uppercase mt-0.5">
+                    Digital Agency & Studio
                   </span>
                 </div>
               </Link>
@@ -240,13 +240,13 @@ export default function Navbar() {
                           href="/services"
                           className="font-semibold text-brand-600 hover:text-brand-700 inline-flex items-center gap-1"
                         >
-                          Explore all {SERVICES.length} service guides & pricing benchmarks <ArrowRight className="w-3.5 h-3.5" />
+                          Explore all agency services & engineering capabilities <ArrowRight className="w-3.5 h-3.5" />
                         </Link>
                         <Link
-                          href="/post-project"
+                          href="/contact"
                           className="font-semibold text-slate-900 hover:text-brand-600 inline-flex items-center gap-1"
                         >
-                          Need custom provider matching? Post a Project <ArrowRight className="w-3.5 h-3.5" />
+                          Have a custom project in mind? Book a consultation <ArrowRight className="w-3.5 h-3.5" />
                         </Link>
                       </div>
                     </div>
@@ -273,7 +273,7 @@ export default function Navbar() {
               </nav>
             </div>
 
-            {/* Right: Search + Sign In + Primary CTA */}
+            {/* Right: Search + Book Call + Primary CTA */}
             <div className="hidden lg:flex items-center gap-2 xl:gap-3 shrink-0">
               {/* Search Modal Trigger */}
               <button
@@ -283,25 +283,25 @@ export default function Navbar() {
                 title="Quick search (Press /)"
               >
                 <Search className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                <span className="hidden xl:inline">Search...</span>
+                <span className="hidden xl:inline">Search services...</span>
                 <kbd className="hidden xl:inline-block px-1.5 py-0.5 text-[10px] font-mono bg-white border border-slate-200 rounded text-slate-500">
                   /
                 </kbd>
               </button>
 
               <Link
-                href="/for-providers"
+                href="/contact"
                 className="px-2.5 py-1.5 xl:px-3 xl:py-1.5 text-xs xl:text-sm font-semibold text-slate-700 hover:text-slate-900 transition-colors whitespace-nowrap shrink-0"
               >
-                Sign In
+                Book Call
               </Link>
 
               <Link
                 href="/post-project"
                 className="inline-flex items-center gap-1.5 px-3.5 py-1.5 xl:px-4 xl:py-2 text-xs xl:text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 active:bg-brand-800 rounded-xl shadow-xs hover:shadow transition-all whitespace-nowrap shrink-0"
               >
-                <Briefcase className="w-3.5 h-3.5 xl:w-4 xl:h-4 shrink-0" />
-                <span>Get Started</span>
+                <Sparkles className="w-3.5 h-3.5 xl:w-4 xl:h-4 shrink-0" />
+                <span>Start a Project</span>
               </Link>
             </div>
 

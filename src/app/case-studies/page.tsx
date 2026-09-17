@@ -8,9 +8,9 @@ import { PROVIDERS } from "@/lib/data";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Real Work & Verified Case Studies | GraphicsIdea Marketplace",
+  title: "Featured Case Studies & Work | GraphicsIdea Digital Agency",
   description:
-    "Explore in-depth case studies with verified metrics, architecture diagrams, and demonstrable ROI delivered by vetted agencies and studios.",
+    "Explore GraphicsIdea case studies with verified ROI metrics, client architecture diagrams, and high-impact digital products delivered for market leaders.",
 };
 
 export default function CaseStudiesIndexPage() {
@@ -36,9 +36,8 @@ export default function CaseStudiesIndexPage() {
             Real Work. Real Expertise.
           </h1>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-            Every case study on GraphicsIdea is independently audited with confirmed client references.
-            Discover how leading digital product studios, software engineering firms, and growth
-            agencies solve hard technical problems.
+            Explore how GraphicsIdea designs, builds, and scales custom software products.
+            From high-throughput fintech engines to native mobile apps, see how we solve complex technical challenges for fast-growing companies.
           </p>
         </div>
 

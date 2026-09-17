@@ -236,7 +236,7 @@ export const SERVICES: ServiceItem[] = [
     primaryKeyword: 'Web Development Services',
     secondaryKeywords: ['hire web development agency', 'custom web application development', 'full stack web developers', 'Next.js development company'],
     searchIntent: 'Commercial / Transactional',
-    metaTitle: 'Top Web Development Companies & Agencies | GraphicsIdea Marketplace',
+    metaTitle: 'Top Web Development Companies & Agencies | GraphicsIdea Digital Agency',
     metaDescription: 'Discover and compare verified web development agencies and engineering studios. Filter by technology stack, hourly rate, and client reviews. Request proposals today.',
     subServices: [
       {
@@ -2142,7 +2142,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedDate: 'February 10, 2026',
     author: {
       name: 'Alexander Sterling',
-      role: 'Principal Marketplace Architect',
+      role: 'Principal Software Architect',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80'
     },
     summary: 'Avoid costly hiring mistakes. The exact technical questions, repo ownership clauses, and reference check strategies experienced CTOs use before signing a contract.',
@@ -2186,7 +2186,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedDate: 'January 15, 2026',
     author: {
       name: 'Alexander Sterling',
-      role: 'Principal Marketplace Architect',
+      role: 'Principal Software Architect',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80'
     },
     summary: 'When it makes sense to hire an independent specialist vs when you need a full-service agency team. Budget, timeline, and management overhead compared.',
@@ -2229,7 +2229,7 @@ export const BLOG_POSTS: BlogPost[] = [
     publishedDate: 'March 2, 2026',
     author: {
       name: 'Alexander Sterling',
-      role: 'Principal Marketplace Architect',
+      role: 'Principal Software Architect',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80'
     },
     summary: 'Closing enterprise software deals requires serious security. A hands-on guide to authenticated gray-box pen-testing, automated compliance tooling (Vanta/Drata), and obtaining Letters of Attestation.',
@@ -2244,28 +2244,24 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const GENERAL_FAQS = [
   {
-    question: 'What is GraphicsIdea and how is it different from freelance marketplaces?',
-    answer: 'GraphicsIdea is an independent directory for verified tech agencies, design studios, and senior software contractors. Unlike bidding sites that spark a race to the bottom on price and deliver buggy code, we curate teams based on verified client references, real code audits, and transparent past work. You deal with the provider directly—no hidden fees, no escrow hostage games.'
+    question: 'What is your typical project delivery timeline?',
+    answer: 'Most custom web apps and mobile MVPs are completed in 4 to 8 weeks. Enterprise software platforms or complex AI integrations take 8 to 14 weeks depending on scope.'
   },
   {
-    question: 'How does GraphicsIdea verify service providers?',
-    answer: 'Every provider goes through manual vetting: legal entity verification, a review of real production codebases or Figma design files, and direct verification calls with previous clients before any badge is awarded.'
+    question: 'Do we own 100% of the code and intellectual property?',
+    answer: 'Yes, 100%. All source repositories, Figma design systems, database schemas, and infrastructure setups belong entirely to your company. We sign full IP transfer agreements before sprint 1.'
   },
   {
-    question: 'Is it free for clients to browse and contact providers?',
-    answer: 'Yes. Browsing profiles, reviewing portfolio case studies, and reaching out for project quotes is completely free. We do not charge clients fees or tack surcharges onto project quotes.'
+    question: 'How do you estimate and charge for project costs?',
+    answer: 'We offer both fixed-price milestone scope quotes and dedicated monthly sprint teams. Use our interactive estimator on the homepage to calculate a realistic budget before your discovery call.'
   },
   {
-    question: 'Can I compare multiple providers before making a decision?',
-    answer: 'Yes. Use the comparison drawer to line up to 3 providers side by side and evaluate hourly rates, team size, technical focus, and client feedback at a glance.'
+    question: 'What tech stack does GraphicsIdea specialize in?',
+    answer: 'Our core stack includes Next.js, React, React Native, TypeScript, Node.js, Python/FastAPI, PostgreSQL, AWS, and Vercel. For AI products, we implement OpenAI, LangChain, and vector stores.'
   },
   {
-    question: 'How do service providers get listed on the platform?',
-    answer: 'Agencies and independent engineers submit an application detailing their core stack, recent client deliveries, and verifiable references. Our team reviews each submission manually before approving any public listing.'
-  },
-  {
-    question: 'How can clients post a project requirement?',
-    answer: "Click 'Post a Project' in the header to run through our intake form. Share your timeline, stack preference, and target budget, and we'll introduce you to matching vetted teams who have solved that exact problem before."
+    question: 'What happens after our product goes live?',
+    answer: 'Every project includes 30 days of post-launch monitoring, warranty bug fixes, and developer handover training. We also offer monthly retainer plans for ongoing scaling and feature development.'
   }
 ];
 

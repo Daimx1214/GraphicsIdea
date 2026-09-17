@@ -7,9 +7,9 @@ import ServiceCard from "@/components/ServiceCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "All Technology & Digital Services Directory | GraphicsIdea",
+  title: "Agency Services & Digital Product Engineering | GraphicsIdea",
   description:
-    "Explore our complete directory of verified digital services: Web Development, Custom Software, UI/UX Design, SEO, Mobile Apps, AI Engineering, and more.",
+    "Explore GraphicsIdea agency services: Web Development, Custom Software, UI/UX Design, Technical SEO, Mobile Apps, AI Engineering, and Cloud DevOps.",
 };
 
 export default function ServicesIndexPage() {
@@ -22,13 +22,13 @@ export default function ServicesIndexPage() {
         {/* Header */}
         <div className="max-w-3xl mb-12">
           <div className="text-xs font-bold uppercase tracking-wider text-brand-600 mb-2">
-            Service Capabilities
+            Agency Capabilities
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
-            Explore Verified Technology & Digital Services
+            Full-Service Digital Product Engineering & Design
           </h1>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-            Browse our verified catalog of engineering, design, and growth services. Every category features independently evaluated agencies and senior contractors with clear pricing and verified client reviews.
+            Browse our full range of design, engineering, and growth capabilities. We deliver end-to-end custom software solutions, tokenized design systems, and cloud infrastructure for fast-growing companies.
           </p>
         </div>
 

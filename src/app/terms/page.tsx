@@ -5,8 +5,8 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions | GraphicsIdea",
-  description: "Terms of service and marketplace standards for GraphicsIdea users.",
+  title: "Terms and Conditions | GraphicsIdea Digital Agency",
+  description: "Client service agreements, project intake policies, and intellectual property rights for GraphicsIdea clients.",
 };
 
 export default function TermsPage() {
@@ -21,28 +21,22 @@ export default function TermsPage() {
           <p className="text-xs text-slate-400">Last updated: February 2026</p>
 
           <p>
-            Welcome to GraphicsIdea. By accessing or using our marketplace platform, directories, and project
-            intake tools, you agree to be bound by these Terms and Conditions.
+            Welcome to GraphicsIdea Digital Agency & Studio. By engaging our engineering services, requesting technical project scope estimates, or commissioning software deliverables, you agree to be bound by these Master Service Terms.
           </p>
 
-          <h2 className="text-lg font-bold text-slate-900 pt-4">1. Marketplace Platform Role</h2>
+          <h2 className="text-lg font-bold text-slate-900 pt-4">1. Direct Agency Engineering & Retainers</h2>
           <p>
-            GraphicsIdea operates as an independent discovery, comparison, and verification directory.
-            Contracts for professional services, milestone deliverables, and intellectual property assignments
-            are executed directly between clients and independent service providers.
+            GraphicsIdea delivers custom software engineering, product design, and strategic consulting directly through dedicated in-house senior squads. All project scope, milestone acceptances, and SLA guarantees are governed under signed Statements of Work (SOW) and Non-Disclosure Agreements (NDA).
           </p>
 
-          <h2 className="text-lg font-bold text-slate-900 pt-4">2. Provider Verification Standards</h2>
+          <h2 className="text-lg font-bold text-slate-900 pt-4">2. Intellectual Property & Deliverable Assignment</h2>
           <p>
-            While GraphicsIdea conducts rigorous portfolio, reference, and identity audits prior to issuing
-            Verified Badges, clients are encouraged to perform their own contract due diligence and technical
-            assessments. GraphicsIdea does not guarantee the specific performance of third-party contracts.
+            Upon full payment of project milestone fees, 100% of custom code, design assets, and technical documentation produced by GraphicsIdea become the sole, unencumbered intellectual property of the client.
           </p>
 
-          <h2 className="text-lg font-bold text-slate-900 pt-4">3. Prohibited Conduct</h2>
+          <h2 className="text-lg font-bold text-slate-900 pt-4">3. Sprint Guarantee & Code Standards</h2>
           <p>
-            Users agree not to submit fraudulent reviews, misrepresent corporate entities, scrape directory
-            data via unauthorized automated agents, or engage in malicious bidding practices.
+            Every software release engineered by GraphicsIdea undergoes automated unit testing, static code analysis, and security auditing prior to staging environment deployment.
           </p>
         </div>
       </div>

@@ -32,10 +32,6 @@ export default function MarketingExpertsDirectoryPage() {
         {/* Hero Header */}
         <header className="bg-white rounded-2xl sm:rounded-3xl p-8 sm:p-12 border border-slate-200/90 shadow-card mb-10">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 text-amber-700 text-xs font-semibold mb-3 border border-amber-200">
-              <TrendingUp className="w-3.5 h-3.5 text-amber-600" />
-              <span>Growth & SEO Consultancies Directory</span>
-            </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
               Top Verified Marketing & SEO Experts
             </h1>
